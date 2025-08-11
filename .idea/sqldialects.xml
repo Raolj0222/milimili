@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/tools/数数查询.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/works/fluury新增活跃数据.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/works/数数人均时长.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/works/每日飞书支出更新.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/works/滋滋内购数据.py" dialect="Greenplum" />
+    <file url="file://$PROJECT_DIR$/works/滋滋渠道回收情况.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/works/用户行为探索.py" dialect="MySQL" />
+  </component>
+</project>
