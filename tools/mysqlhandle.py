@@ -12,7 +12,7 @@ class Mysql_handle():
         self.url=info['url']
         self.database=database
     def sql_conn(self):
-        conn = create_engine(f"mysql+pymysql://root:hNJA%40N1FAlNas@{self.url}:3306/{self.database}?charset=utf8mb4")
+        conn = create_engine(f"mysql+pymysql://root:HAIhgdgs#!alaREys@{self.url}:3306/{self.database}?charset=utf8mb4")
         return conn
     def select_data(self,sql):
         conn=self.sql_conn()
@@ -26,7 +26,7 @@ class Mysql_handle():
 
     def savedata(self,table, savedata_list):
         values = savedata_list
-        url_update = 'http://150.230.206.248:5000/update'
+        url_update = 'http://10.0.11.48:1974/update'
         payload = {'table': table, 'values': values}
         headers = {}
         response = requests.request("post", url=url_update, headers=headers, data=payload)
